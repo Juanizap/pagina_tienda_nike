@@ -1,0 +1,379 @@
+
+li {
+    list-style-type: none!important;
+}
+
+
+/*Banner izquierda*/
+
+
+header .logo_nav{
+    background-image: url(../img/logo_nike2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}   
+
+.album .col{
+    background-color: aquamarine;
+    width:50%;
+    height: 300px;
+  }
+
+  .album .card{
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .album .imagen_izq{
+    height: 600px;
+  }
+
+
+
+#carouselExampleIndicators .carousel-indicators button{
+    border-radius: 100%;
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+   
+}
+
+
+#carouselExampleIndicators .carousel-indicators .active{
+  
+    background-color: rgb(31, 31, 31);
+   
+}
+
+#carouselExampleIndicators .carousel-item img{
+    height: 88vh;
+    
+}
+
+
+
+
+
+.contenedor_imagen_galeria, .contenedor_imagen_galeria img{
+    height: 44vh;
+    
+
+}
+
+.img_carousel1{
+    background-image: url(../img/gorro1.jpg);
+
+}
+
+.columna_derecha img{
+    height: 88vh;
+}
+
+.carousel-inner .btn {
+
+
+   height: 10%;
+   width: 100%;
+
+   background-color: #191818;
+   border: 0!important;
+   letter-spacing: 1px;
+
+}
+
+.carousel-inner .btn:hover {
+    background-color: #353333;
+
+
+}
+
+.carousel-indicators{
+    bottom: 10%;
+}
+
+.slider_izquierda{
+  
+    background-size: cover;
+    width: 49%;
+    padding-left: 0.3%;
+    
+
+}
+
+
+
+
+.portada .img_portada_derecha{
+    height: 100%;
+    width: 100%;
+
+}
+
+.portada .img_portada_1{
+
+    background-image: url(../img/zapatilla4.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+
+
+}
+
+.portada .img_portada_2{
+    background-image: url(../img/zapatilla5.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+
+}
+
+.portada .img_portada_3{
+    background-image: url(../img/zapatilla6.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+
+}
+
+.portada .img_portada_4{
+    background-image: url(../img/zapatilla1.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+
+}
+
+.portada .img_portada_5{
+    background-image: url(../img/zapatilla3.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+
+}
+
+.portada .img_portada_6{
+    background-image: url(../img/zapatilla2.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+/*modal*/
+
+.modal-xl{
+    min-height: 40vh!important;
+
+
+}
+
+
+
+.colores_row{
+
+    height: 13%;
+    
+
+}
+
+.color{
+    width: 20%;
+    
+    
+}
+
+.colores_row .color_1{
+    background-color: rgb(245, 99, 1);
+}
+
+.colores_row .color_2{
+    background-color: rgb(1, 126, 1);
+}
+
+.colores_row .color_3{
+    background-color: rgb(7, 7, 194);
+}
+
+.img_portada_derecha{
+    cursor: pointer;
+}
+
+.img_portada_derecha:hover > a.btn{
+    display: inline-block!important;
+    position: absolute;
+    top: 50%;
+    right: 45%;
+    border-radius: 50%;
+    font-size: 100%;
+    text-align: center;
+    color: #000000;   
+    background-color: #fff;
+    border: 0!important;
+
+
+
+}
+
+
+.iconos_redes{
+    background-color: #2f2e2e;
+    color: #fff;
+    width: 50px;
+    z-index: 1000;
+    top: 60%!important;
+}
+
+.iconos_redes ul{
+    list-style: none;
+    margin: 0;
+    padding: 13% 24% 26% 0;
+    width: 3%;
+}
+
+.iconos_redes ul li {
+    margin-top: 14px;
+
+
+}
+.iconos_redes ul li a{
+    padding: 10px;
+   
+}
+
+main{
+    min-height: 50vh;
+    margin-bottom: 10%;
+}
+
+main .img_main_1{
+    background-image: url(../img/tarjeta.png);
+    background-position: 50%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+
+}
+
+main .img_main_2{
+    background-image: url(../img/eco.jpg);
+    background-position: 50%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+
+}
+
+main .img_main_3{
+    background-image: url(../img/run.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 75%;
+    width: 300px;
+    height: 300px;
+
+}
+
+
+
+main .texto_logos{
+    padding: 0 5%;
+
+
+}
+
+.galeria_article{
+
+    padding-top: 8%;
+
+}
+
+
+article .row div img:hover, aside img:hover{
+    filter: brightness(80%);
+    cursor: pointer;
+    transition: 1s;
+}
+
+article img, aside img{
+    position: relative;
+    left: 6%
+
+}
+
+section{
+    width: 50%;
+  
+}
+
+aside{
+    width: 50%;
+}
+
+section{
+    float: left;
+}
+
+aside{
+    float: right;
+    height: 400px;
+}
+
+
+
+aside .publi_arriba{
+    background-color: aqua;
+    
+}
+
+section div{
+    width: 50%;
+    height: 364px; 
+    
+        
+}
+
+section .contendor_btn_seguir{
+    /*background-color:#f6f6f6 ;*/
+    width: 90%;
+    height: 364px;
+    background-image: url(../img/nike_logo.png);
+    background-size: 50%;
+}
+
+section .row{
+    float: right;
+
+}
+
+section .boton_seguir{ 
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+
+  
+
+}
+
+
+
+aside .row{
+    overflow: hidden;   
+    width: 1100px;
+
+
+}
+
+footer{
+    background-color: #191818;
+    min-height: 60vh;
+    width: 100vw;
+    float: left;
+}
+
